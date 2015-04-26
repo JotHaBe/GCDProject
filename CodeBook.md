@@ -3,6 +3,7 @@ This is a code book that describes the variables, the data, and any transformati
 ## Description of the raw Dataset
 
 The raw dataset was downloaded from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 The high level 'data set description' was found at: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones and the details were in the raw data set's 'README.txt' file.
 
 The high level description states that the research team compiled a Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
@@ -47,7 +48,9 @@ The following files are available for the train and test data. Their description
 
 
 
-## Description of the Tidy Dataset [averages_data.txt]
+## Description of the Tidy Dataset 
+
+The tidy dataset is stored in file: averages_data.txt.
 
 The following two columns uniquely identify a row (Subject, Activity)
 
@@ -57,7 +60,7 @@ The following two columns uniquely identify a row (Subject, Activity)
 The remaining columns are floating point numbers that represent the measured mean [the name contains 'Mean'] or
 the standard deviation [the name contains 'StdDev'] of a specific variable.
 
- The column names used the following abbreviations
+ The column names used the following abbreviations:
 
  - Time to denote the time domain
  - Freq to denote the frequency domain
@@ -66,7 +69,7 @@ the standard deviation [the name contains 'StdDev'] of a specific variable.
  - Gyro for gyroscope
  - Mag for magnitude
  
-The 66 measurement columns are listed below
+The 66 measurement columns are listed below:
 
   - TimeBodyAccMeanX
   - TimeBodyAccMeanY
